@@ -1,0 +1,28 @@
+GalaxyRobotControl/
+├── CMakeLists.txt
+├── main.cpp
+├── core/
+│   ├── RobotModel.h/cpp           # 机器人模型（运动学/动力学）
+│   ├── JointController.h/cpp      # 关节控制器
+│   ├── TrajectoryPlanner.h/cpp    # 轨迹规划
+│   ├── BehaviorTree.h/cpp         # 行为树引擎
+│   └── TaskScheduler.h/cpp        # 任务调度器
+├── perception/
+│   ├── SensorFusion.h/cpp         # 传感器融合
+│   ├── LidarProcessor.h/cpp       # 激光雷达处理
+│   └── CameraProcessor.h/cpp      # 视觉处理
+├── communication/
+│   ├── RobotComm.h/cpp            # 机器人通信
+│   ├── ROSBridge.h/cpp            # ROS2桥接
+│   └── EtherCATMaster.h/cpp       # EtherCAT主站
+├── ui/
+│   ├── MainWindow.h/cpp           # 主窗口
+│   ├── RobotViewer3D.h/cpp        # 3D机器人显示
+│   ├── JointPanel.h/cpp           # 关节控制面板
+│   ├── TaskPanel.h/cpp            # 任务管理面板
+│   ├── MapView.h/cpp              # 地图/SLAM视图
+│   └── DiagnosticPanel.h/cpp      # 诊断面板
+└── models/
+    ├── RobotState.h               # 机器人状态
+    ├── JointState.h               # 关节状态
+    └── TaskDefinition.h           # 任务定义
