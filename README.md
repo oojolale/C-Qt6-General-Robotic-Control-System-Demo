@@ -1,11 +1,5 @@
 # C-Qt6-General-Robotic-Control-System-Demo
 C++Qt6 通用机器人控制系统 Demo
-另外附：C++Qt 导弹卫星制导控制上位机系统
-https://wx.mail.qq.com/s?k=-Ym45HvuVxE0Y4UxW1
-导弹制导系统仿真 - 详细技术解析与Demo源码.docx
-https://wx.mail.qq.com/s?k=p6Hb00zPehAjqWbYz0
-智能控制导论-1997-12-浙江科学出版社-罗公亮.pdf
-https://wx.mail.qq.com/s?k=lYj443zlbBIXXtRsl2
 这是一个非常具体且实用的学习路径问题。对于具备一定C++基础，希望从Qt6切入理解上位机软件开发流程的初学者，建议遵循一个从核心机制到流程框架，再到具体实践的顺序来切入。
 
 为了直观展示上位机软件与硬件交互的核心流程，首先将其提炼成一个简化但关键的流程图，这将是学习的总体路线图：
